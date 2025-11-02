@@ -1,0 +1,37 @@
+name: Frontend (Arca) CI
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'arca/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'arca/**'
+
+jobs:
+  build-and-test-frontend:
+    name: Build e Testes do Frontend
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./arca
+    steps:
+      - name: 1. Checkout (Puxar código)
+        uses: actions/checkout@v4
+
+      - name: 2. Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: arca/package-lock.json
+
+      - name: 4. Rodar Lint
+        run: npm run lint
+
+      - name: 5. Rodar Testes
+        run: npm run test -- --watchAll=false
+
+      - name: 6. Rodar Build
+        run: npm run build
