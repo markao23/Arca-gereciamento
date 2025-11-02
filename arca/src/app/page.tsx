@@ -37,8 +37,8 @@ const HomePage: NextPage = () => {
             </div>
         </header>
         <main className="flex-grow">
-            <section className=" relative overflow-hidden bg-white pt-20 pb-24 md:pt-32 md:-pt-40">
-                <div className=" container mx-auto grid max-w-7xl grid-cols-1 gap-12 px-4 md:grid-cols-2 md:items-center lg:px-8">
+            <section className="relative overflow-hidden bg-white py-12 md:py-16">
+                <div className=" container mx-auto grid max-w-7xl grid-cols-1 gap-12 px-4 md:grid-cols-2 md:items-start lg:px-8">
                     <div className="z-10">
                         <span className="mb-2 block text-sm font-semibold uppercase tracking-wide text-blue-600">
                             ARCA Antigosmobilista da região de Catenduva
@@ -67,9 +67,6 @@ const HomePage: NextPage = () => {
                           NOTA: Susbititua este div por um componente <Image> do Next.js
                           ex: <Image src="path/to/image" alt="imagemdo carro" layout="fill" objectFit="cover" className="rounded-lg" />
                         */}
-                        <div className="flex h-full w-full items-center justify-center bg-gray-300">
-                            <span className="text-lg font-medium text-gray-500">[imagem do carro]</span>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -123,20 +120,20 @@ const HomePage: NextPage = () => {
                     </div>
                 </div>
             </section>
-            <section className="bg-blue-700">
+            <section className="bg-blue-800">
                 <div className="mx-auto max-w-7xl py-16 px-4 text-center sm:py-20 sm:px-6 lg:px-8">
-                    <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-                        <span className="block">
-                            Faça parte da nossa historia
-                        </span>
+                    <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+            <span className="block">
+                Faça parte da nossa história
+            </span>
                     </h2>
-                    <p className="mt-4 text-lg leading-6 text-blue-100">
-                        Junte-se á maior comunidade de antigomobilista resgatando a antigidades
+                    <p className="mt-4 text-lg leading-6 text-gray-700">
+                        Junte-se à maior comunidade de antigomobilista resgatando as antiguidades
                         na região de Catanduva
                     </p>
                     <Link href="/associar" className="mt-8 inline-flex w-auto items-center rounded-lg border
-                       border-trnsparent bg-white px-6 py-3 text-base font-medium text-blue-700 shadow-md
-                       trasitions-colors hover:bg-blue-50">
+                      border-transparent bg-blue-600 px-6 py-3 text-base font-medium text-white shadow-md
+                      transition-colors hover:bg-blue-700">
                         Quero me Associar
                     </Link>
                 </div>

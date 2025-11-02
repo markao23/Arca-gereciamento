@@ -4,8 +4,8 @@ import { Input } from "@/components/ui/Input";
 
 type PasswordInputProps =
     Omit<React.InputHTMLAttributes<HTMLInputElement>, 'type'> & {
-    label?: string;
-    showPasswordIcon?: boolean;
+    label?: string
+    showPasswordIcon?: boolean
 }
 
 export const PasswordInput = React.forwardRef<
