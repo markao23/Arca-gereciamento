@@ -1,7 +1,9 @@
 name: Frontend (Arca) CI
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
+      - dev-markus
     paths:
       - 'arca/**'
   pull_request:
