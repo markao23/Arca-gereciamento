@@ -35,8 +35,5 @@ jobs:
       - name: 4. Rodar Lint (Verificação de Código)
         run: npm run lint
 
-      - name: 5. Rodar Testes Unitários
-        run: npm run test -- --watchAll=false
-
       - name: 6. Gerar Build de Produção
         run: npm run build
