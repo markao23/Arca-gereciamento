@@ -29,11 +29,14 @@ jobs:
           cache: 'npm'
           cache-dependency-path: arca/package-lock.json
 
-      - name: 4. Rodar Lint
+      - name: 3. Instalar Dependências
+        run: npm ci
+
+      - name: 4. Rodar Lint (Verificação de Código)
         run: npm run lint
 
-      - name: 5. Rodar Testes
+      - name: 5. Rodar Testes Unitários
         run: npm run test -- --watchAll=false
 
-      - name: 6. Rodar Build
+      - name: 6. Gerar Build de Produção
         run: npm run build
