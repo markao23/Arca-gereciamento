@@ -51,7 +51,7 @@ const HomePage: NextPage = () => {
                             acesse eventos exclusivos e conecte-se com outros apaixonados por carros
                         </p>
                         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-                            <Link href="/acossiar" className="flex items-center justify-center rounded-lg bg-blue-600 px-6 py-3
+                            <Link href="/associar" className="flex items-center justify-center rounded-lg bg-blue-600 px-6 py-3
                              text-base font-medium text-white shadow-md trasition-transform hover:scale-105">
                                 Torne-se Membro
                                 <ChevronRight className="ml-1 h-5 w-5"/>
