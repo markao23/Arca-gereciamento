@@ -124,7 +124,7 @@ const HomePage: NextPage = () => {
                 </div>
             </section>
             <section className="bg-blue-700">
-                <div className="mx-auto max-w-7xl py-16 px-4 text-center sm:py-20 sm:px-6 jg:px-8">
+                <div className="mx-auto max-w-7xl py-16 px-4 text-center sm:py-20 sm:px-6 lg:px-8">
                     <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
                         <span className="block">
                             Faça parte da nossa historia
@@ -134,7 +134,7 @@ const HomePage: NextPage = () => {
                         Junte-se á maior comunidade de antigomobilista resgatando a antigidades
                         na região de Catanduva
                     </p>
-                    <Link href="" className="mt-8 inline-flex w-auto items-center rounded-lg border
+                    <Link href="/associar" className="mt-8 inline-flex w-auto items-center rounded-lg border
                        border-trnsparent bg-white px-6 py-3 text-base font-medium text-blue-700 shadow-md
                        trasitions-colors hover:bg-blue-50">
                         Quero me Associar
