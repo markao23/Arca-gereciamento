@@ -35,3 +35,20 @@
    docker-compose up --build -d  # ou sem
    docker-compose down 
 ```
+
+#### Imagem das telas pra vc colaborador saber eu to criando
+
+1. tela de inicio 
+<img src="./Images/img.png" alt="tela de inicio">
+
+2. outra parte da tela de inicio
+<img src="./Images/img_1.png" alt="tela de inicio">
+
+3. terceira parte da tela de inicio
+<img src="./Images/img_2.png" alt="tela de inicio">
+
+4. tela de cadastro
+<img src="./Images/img_3.png" alt="tela de cadastro" alt="tela de cadastro">
+
+5. tela de login
+<img src="./Images/img_4.png" alt="tela de login" alt="tela de login">
