@@ -121,22 +121,22 @@ const HomePage: NextPage = () => {
                 </div>
             </section>
             <section className="bg-blue-800">
-                <div className="mx-auto max-w-7xl py-16 px-4 text-center sm:py-20 sm:px-6 lg:px-8">
-                    <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            <span className="block">
-                Faça parte da nossa história
-            </span>
-                    </h2>
-                    <p className="mt-4 text-lg leading-6 text-gray-700">
-                        Junte-se à maior comunidade de antigomobilista resgatando as antiguidades
-                        na região de Catanduva
-                    </p>
-                    <Link href="/associar" className="mt-8 inline-flex w-auto items-center rounded-lg border
-                      border-transparent bg-blue-600 px-6 py-3 text-base font-medium text-white shadow-md
-                      transition-colors hover:bg-blue-700">
-                        Quero me Associar
-                    </Link>
-                </div>
+                    <div className="mx-auto max-w-7xl py-16 px-4 text-center sm:py-20 sm:px-6 lg:px-8">
+                        <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                        <span className="block">
+                            Faça parte da nossa história
+                        </span>
+                        </h2>
+                        <p className="mt-4 text-lg leading-6 text-gray-700">
+                            Junte-se à maior comunidade de antigomobilista resgatando as antiguidades
+                            na região de Catanduva
+                        </p>
+                        <Link href="/associar" className="mt-8 inline-flex w-auto items-center rounded-lg border
+                          border-transparent bg-blue-600 px-6 py-3 text-base font-medium text-white shadow-md
+                          transition-colors hover:bg-blue-700">
+                            Quero me Associar
+                        </Link>
+                    </div>
             </section>
         </main>
         <footer className="bg-gray-800 text-gray-400">
